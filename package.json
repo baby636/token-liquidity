@@ -41,7 +41,7 @@
     "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
     "bitbox-sdk": "^8.8.0",
-    "collect.js": "^4.16.6",
+    "collect.js": "^4.28.6",
     "glob": "^7.0.0",
     "got": "^9.5.1",
     "jsonwebtoken": "^8.3.0",
