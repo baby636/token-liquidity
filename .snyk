@@ -1,0 +1,586 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - apidoc > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - eslint > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nock > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - semantic-release > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - winston > async > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > apidoc > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - apidoc > apidoc-core > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - request-promise > request-promise-core > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > babel-register > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > slpjs > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-mock > semantic-release > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > semantic-release > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - sinon > @sinonjs/samsam > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - eslint > inquirer > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - eslint > table > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - mocha > yargs-unparser > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - semantic-release > @semantic-release/commit-analyzer > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - semantic-release > @semantic-release/github > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - semantic-release > @semantic-release/npm > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - standard > eslint > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > apidoc > apidoc-core > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - apidoc > winston > async > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > babel-register > babel-core > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > slpjs > bitcore-lib-cash > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - semantic-release > @semantic-release/commit-analyzer > conventional-commits-parser > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-commits-parser > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-mock > semantic-release > @semantic-release/commit-analyzer > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > semantic-release > @semantic-release/commit-analyzer > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-mock > semantic-release > @semantic-release/github > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > semantic-release > @semantic-release/github > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-mock > semantic-release > @semantic-release/npm > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > semantic-release > @semantic-release/npm > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-mock > semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > bitbox-mock > semantic-release > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - sinon > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-mock > sinon > @sinonjs/samsam > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > sinon > @sinonjs/samsam > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - standard > eslint > table > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - standard > eslint > inquirer > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > apidoc > winston > async > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > standard > eslint > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > standard > eslint > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > standard > eslint-plugin-import > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > standard > eslint-plugin-import > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > babel-register > babel-core > babel-types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > babel-register > babel-core > babel-generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > babel-register > babel-core > babel-template > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > slpjs > bitcore-lib-cash > bitcore-lib > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-mock > semantic-release > @semantic-release/commit-analyzer > conventional-commits-parser > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > semantic-release > @semantic-release/commit-analyzer > conventional-commits-parser > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-mock > semantic-release > @semantic-release/release-notes-generator > conventional-commits-parser > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > semantic-release > @semantic-release/release-notes-generator > conventional-commits-parser > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > bitbox-mock > semantic-release > @semantic-release/commit-analyzer > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > bitbox-mock > semantic-release > @semantic-release/github > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > bitbox-mock > semantic-release > @semantic-release/npm > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-mock > semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > bitbox-mock > semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-mock > sinon > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > sinon > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > bitbox-mock > sinon > @sinonjs/samsam > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > standard > eslint > inquirer > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > standard > eslint > inquirer > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > standard > eslint > table > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > standard > eslint > table > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > standard > eslint > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > standard > eslint-plugin-import > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > bitbox-mock > semantic-release > @semantic-release/commit-analyzer > conventional-commits-parser > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > bitbox-mock > semantic-release > @semantic-release/release-notes-generator > conventional-commits-parser > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > bitbox-mock > semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-mock > sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > bitbox-mock > sinon > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/template > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/generator > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > standard > eslint > inquirer > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > standard > eslint > table > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk-mock > bitbox-mock > sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/generator > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/template > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - '@chris.troutner/bch-js > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2021-10-04T11:03:55.856Z'
+    - bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
+    - slp-sdk > bitbox-sdk > bip32-utils > nyc > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2021-10-04T11:03:55.856Z'
