@@ -85,7 +85,7 @@
     "mocha": "^7.0.1",
     "nyc": "^15.0.0",
     "semantic-release": "^17.0.0",
-    "standard": "^14.3.1"
+    "standard": "^16.0.4"
   },
   "release": {
     "publish": [
