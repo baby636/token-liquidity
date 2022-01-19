@@ -84,7 +84,7 @@
     "slp-sdk-mock": "^1.0.2",
     "mocha": "^7.0.1",
     "nyc": "^15.0.0",
-    "semantic-release": "^17.0.0",
+    "semantic-release": "^19.0.0",
     "standard": "^14.3.1"
   },
   "release": {
