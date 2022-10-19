@@ -82,7 +82,7 @@
     "nock": "^10.0.6",
     "sinon": "^7.3.2",
     "slp-sdk-mock": "^1.0.2",
-    "mocha": "^7.0.1",
+    "mocha": "^9.2.2",
     "nyc": "^15.0.0",
     "semantic-release": "^17.0.0",
     "standard": "^14.3.1"
